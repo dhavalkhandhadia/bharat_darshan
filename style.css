@@ -1,0 +1,218 @@
+*/ {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Great Vibes', cursive;
+}
+#BD{
+  font-size: 40px;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Navbar Styles */
+.navbar {
+  background-color: #8b0000;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+}
+
+.navbar ul li {
+  margin-left: 1.5rem;
+}
+
+.navbar ul li a {
+  font-weight: bold;
+}
+
+/* Hero Section Styles */
+.hero {
+  background-image: url('Kankaria_Carnival_2_Ahmedabad.jpeg');
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #FFF;
+}
+
+.hero-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.text-content {
+  max-width: 50%;
+}
+
+#map {
+  width: 40%;
+  height: 300px;
+  margin-left: 20px;
+  margin-top: -280px;
+}
+
+.hero h2 {
+  font-size: 3rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin: 1rem 0;
+}
+
+.hero .btn {
+  background-color: #ff4500;
+  padding: 0.8rem 1.5rem;
+  border-radius: 30px;
+  transition: background-color 0.3s;
+}
+
+.hero .btn:hover {
+  background-color: #dc143c;
+}
+
+/* Features Section */
+.features {
+  padding: 3rem 2rem;
+  background-color: #faf0e6;
+  text-align: center;
+}
+
+.features h2 {
+  margin-bottom: 2rem;
+}
+
+.feature-box {
+  margin-bottom: 1.5rem;
+}
+
+.feature-box h3 {
+  color: #8b0000;
+  margin-bottom: 0.5rem;
+}
+
+/* States Section */
+.states {
+  padding: 3rem 2rem;
+}
+
+.states h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.state-grid {
+  display: flex;
+  justify-content: space-around;
+}
+
+.state-card {
+  text-align: center;
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 15px;
+}
+
+.state-card img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+/* Events Section */
+.events {
+  padding: 3rem 2rem;
+  background-color: #ffefdb;
+}
+
+.event-grid {
+  display: flex;
+  justify-content: space-around;
+}
+
+.event-card {
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 15px;
+  text-align: center;
+}
+
+/* Booking Section */
+.booking {
+  padding: 3rem 2rem;
+  text-align: center;
+  background-color: #faf0e6;
+}
+
+.booking .btn {
+  background-color: #8b0000;
+  padding: 1rem 2rem;
+  border-radius: 30px;
+  margin: 1rem;
+  display: inline-block;
+}
+
+/* Contact Section */
+.contact {
+  padding: 3rem 2rem;
+  background-color: #ffefdb;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact label {
+  margin-top: 1rem;
+}
+
+.contact input,
+.contact textarea {
+  width: 70%;
+  padding: 0.8rem;
+  margin-top: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact button {
+  background-color: #8b0000;
+  color: #fff;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 30px;
+  margin-top: 1.5rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #8b0000;
+}

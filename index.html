@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Bharat Darshan</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;500&display=swap"
+    rel="stylesheet">
+  <script type="text/javascript" src="mapdata.js"></script>
+  <script type="text/javascript" src="countrymap.js"></script>
+
+
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <h1 id="BD"> Bharat Darshan</h1>
+    <ul>
+      <li><a href="https://whc.unesco.org/en/statesparties/in">Heritage Sites</a></li>
+      <li><a href="#events">Events</a></li>
+      <li><a href="#booking">Hotel Booking</a></li>
+      <li><a href="https://www.youtube.com/playlist?app=desktop&list=PLtbdQf2lOyoW4FWhHkWN-2aLgMkf07aO-">Vlog</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h2>Experience the Heart and Soul of Every State</h2>
+      <p>Discover India like never before – from culture to food, heritage, and travel.</p>
+      <!-- <a href="#features" class="btn">Explore Now</a> -->
+      <div id="map"></div>
+    </div>
+  </section>
+
+  <!-- Features  -->
+  <section id="features" class="features">
+    <h2>Key Features</h2>
+    <div class="feature-box">
+      <h3>Cultural Insights</h3>
+      <p>Learn about the traditions, art, and history of every Indian state.</p>
+    </div>
+    <div class="feature-box">
+      <h3>Personalized Recommendations</h3>
+      <p>Get suggestions tailored to your travel preferences.</p>
+    </div>
+    <div class="feature-box">
+      <h3>Smart Navigation</h3>
+      <p>Navigate through India's landmarks with ease.</p>
+    </div>
+    <div class="feature-box">
+      <h3>Seamless Booking</h3>
+      <p>Book hotels, shows, and cultural events with just a click.</p>
+    </div>
+  </section>
+
+  <!-- States  -->
+  <section id="states" class="states">
+    <h2>Discover States</h2>
+    <div class="state-grid">
+      <div class="state-card">
+        <a href="https://www.tourism.rajasthan.gov.in/">
+        <img src="Rajasthan.jpg" alt="Rajasthan"></a>
+        <h3>Rajasthan</h3>
+      </div>
+      <div class="state-card">
+        <a href="https://maharashtratourism.gov.in/">
+        <img src="Maharashtra.jpg" alt="Maharashtra"></a>
+        <h3>Maharashtra</h3>
+      </div>
+      <div class="state-card">
+        <a href="https://ttdconline.com/index.jsp">
+        <img src="tamil.jpg" alt="Tamil Nadu"></a>
+        <h3>Tamil Nadu</h3>
+      </div>
+    </div>
+  </section>
+
+  <!-- Events -->
+  <section id="events" class="events">
+    <h2 style="text-align: center;">Special Events</h2>
+    <div class="event-grid">
+      <div class="event-card">
+        <a href="https://www.tripadvisor.in/Attraction_Review-g319729-d10020421-Reviews-Pushkar_Camel_Fair-Pushkar_Ajmer_District_Rajasthan.html">
+         <img src="camel.jpg"  alt="Camel Festival" ></a>
+        <h3>Pushkar Camel Fair</h3>
+        <p>Rajasthan, Nov 2024</p>
+      </div>
+      <div class="event-card">
+        <a href="https://www.tripadvisor.in/Attraction_Review-g304554-d311664-Reviews-Elephanta_Caves-Mumbai_Maharashtra.html">
+        <img src="Elephanta.jpg"></a>
+        <h3>Elephanta Festival</h3>
+        <p>Maharashtra, Sept 2024</p>
+      </div>
+      <div class="event-card">
+       <a href="https://in.bookmyshow.com/activities/divine-durga-mahotsav-2024/ET00402709"> <img src="Durg.jpg"></a>
+        <h3>Durga Puja</h3>
+        <p>West Bengal, Oct 2024</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Booking  -->
+  <section id="booking" class="booking">
+    <h2>Book Your Stay and Shows</h2>
+    <div class="booking-options">
+      <a href="https://www.booking.com/region/in/maharashtra.en-gb.html?aid=356980&label=gog235jc-1DCAYobEILbWFoYXJhc2h0cmFIM1gDaGyIAQGYAQm4ARfIAQzYAQPoAQGIAgGoAgO4AqvUyLYGwAIB0gIkZTc1OGI4ZTEtOWI1OC00ZmJjLTk4ZjYtYzA1MjUyNzE5ODA52AIE4AIB&sid=73dd481c1ddcaa022b084f4967ee262c&keep_landing=1&" class="btn">Book a Hotel</a>
+      <a href="https://in.bookmyshow.com/explore/home/mumbai" class="btn">Book a Show</a>
+    </div>
+  </section>
+
+  <!-- Contact  -->
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name">
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email">
+      <label for="message">Message:</label>
+      <textarea id="message" name="message"></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Incredible Bharat. All Rights Reserved.</p>
+  </footer>
+
+</body>
+
+</html>
