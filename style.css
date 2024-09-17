@@ -48,7 +48,7 @@ a {
 
 /* Hero Section Styles */
 .hero {
-  background-image: url('Kankaria_Carnival_2_Ahmedabad.jpeg');
+  background-image: url('./images/Kankaria_Carnival_2_Ahmedabad.jpeg');
   background-size: cover;
   background-position: center;
   height: 90vh;
